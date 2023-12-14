@@ -1,0 +1,17 @@
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\bin\Debug\net6.0-windows\La Biblioteca.exe
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\bin\Debug\net6.0-windows\La Biblioteca.deps.json
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\bin\Debug\net6.0-windows\La Biblioteca.runtimeconfig.json
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\bin\Debug\net6.0-windows\La Biblioteca.dll
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\bin\Debug\net6.0-windows\La Biblioteca.pdb
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\obj\Debug\net6.0-windows\La_Biblioteca.FrmBiblioteca.resources
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\obj\Debug\net6.0-windows\La Biblioteca.csproj.GenerateResource.cache
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\obj\Debug\net6.0-windows\La Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\obj\Debug\net6.0-windows\La Biblioteca.AssemblyInfoInputs.cache
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\obj\Debug\net6.0-windows\La Biblioteca.AssemblyInfo.cs
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\obj\Debug\net6.0-windows\La Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\obj\Debug\net6.0-windows\La Biblioteca.dll
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\obj\Debug\net6.0-windows\refint\La Biblioteca.dll
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\obj\Debug\net6.0-windows\La Biblioteca.pdb
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\obj\Debug\net6.0-windows\La Biblioteca.genruntimeconfig.cache
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\obj\Debug\net6.0-windows\ref\La Biblioteca.dll
+C:\Users\Pablo\Source\Repos\Vittar.Pablo.RPP\La Biblioteca\obj\Debug\net6.0-windows\La_Biblioteca.AltaLibro.resources
