@@ -28,37 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            comboBox1 = new ComboBox();
-            comboBox2 = new ComboBox();
-            textBox1 = new TextBox();
+            txtNombre = new TextBox();
             edicionBtn = new CheckBox();
             colorBtn = new CheckBox();
-            button1 = new Button();
+            btnCrear = new Button();
+            cmbTipoLibro = new ComboBox();
+            cmbDificultad = new ComboBox();
             SuspendLayout();
             // 
-            // comboBox1
+            // txtNombre
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(12, 12);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(245, 23);
-            comboBox1.TabIndex = 0;
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(12, 91);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(245, 23);
-            comboBox2.TabIndex = 1;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(11, 48);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(247, 23);
-            textBox1.TabIndex = 2;
-            textBox1.Text = "Nombre del libro";
+            txtNombre.Location = new Point(11, 48);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(247, 23);
+            txtNombre.TabIndex = 2;
+            txtNombre.Text = "Nombre del libro";
             // 
             // edicionBtn
             // 
@@ -80,40 +64,57 @@
             colorBtn.Text = "¿A color?";
             colorBtn.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnCrear
             // 
-            button1.Location = new Point(23, 305);
-            button1.Name = "button1";
-            button1.Size = new Size(235, 113);
-            button1.TabIndex = 5;
-            button1.Text = "Crear";
-            button1.UseVisualStyleBackColor = true;
+            btnCrear.Location = new Point(23, 305);
+            btnCrear.Name = "btnCrear";
+            btnCrear.Size = new Size(235, 113);
+            btnCrear.TabIndex = 5;
+            btnCrear.Text = "Crear";
+            btnCrear.UseVisualStyleBackColor = true;
+            btnCrear.Click += btnCrear_Click;
+            // 
+            // cmbTipoLibro
+            // 
+            cmbTipoLibro.FormattingEnabled = true;
+            cmbTipoLibro.Location = new Point(23, 12);
+            cmbTipoLibro.Name = "cmbTipoLibro";
+            cmbTipoLibro.Size = new Size(121, 23);
+            cmbTipoLibro.TabIndex = 6;
+            // 
+            // cmbDificultad
+            // 
+            cmbDificultad.FormattingEnabled = true;
+            cmbDificultad.Location = new Point(22, 121);
+            cmbDificultad.Name = "cmbDificultad";
+            cmbDificultad.Size = new Size(121, 23);
+            cmbDificultad.TabIndex = 7;
             // 
             // AltaLibro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(537, 450);
-            Controls.Add(button1);
+            Controls.Add(cmbDificultad);
+            Controls.Add(cmbTipoLibro);
+            Controls.Add(btnCrear);
             Controls.Add(colorBtn);
             Controls.Add(edicionBtn);
-            Controls.Add(textBox1);
-            Controls.Add(comboBox2);
-            Controls.Add(comboBox1);
+            Controls.Add(txtNombre);
             Name = "AltaLibro";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "AltaLibro";
+            Load += AltaLibro_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
-        private TextBox textBox1;
+        private TextBox txtNombre;
         private CheckBox edicionBtn;
         private CheckBox colorBtn;
-        private Button button1;
+        private Button btnCrear;
+        private ComboBox cmbTipoLibro;
+        private ComboBox cmbDificultad;
     }
 }

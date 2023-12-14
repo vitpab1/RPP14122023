@@ -1,7 +1,10 @@
+using Vittar.Pablo.RPP;
+
 namespace La_Biblioteca
 {
     public partial class FrmBiblioteca : Form
     {
+        private Libro libro; 
         public FrmBiblioteca()
         {
             InitializeComponent();

@@ -37,14 +37,17 @@ namespace Vittar.Pablo.RPP
         {
             return $"Nombre: {nombre}, Tipo: {GetType().Name}";
         }
-
+        /// <summary>
+        /// Se adiciona informacion sobre el libro 
+        /// </summary>
+        /// <returns></returns>
         public string AdicionarInformacion()
         {
             StringBuilder info = new StringBuilder();
             info.AppendLine($"Nombre: {nombre}");
             info.AppendLine($"Tipo: {GetType().Name}");
-            info.AppendLine($"Clasificación: {clasificacion}");
-            info.AppendLine($"Es Edición Especial: {edicionEspecial}");
+            info.AppendLine($"Clasificacion: {clasificacion}");
+            info.AppendLine($"Es Edicion Especial: {edicionEspecial}");
             return info.ToString();
         }
 
